@@ -121,6 +121,11 @@ function App() {
         </div>
       </div>
       <div className="map">{map()}</div>
+      <div className="github-link">
+        <a target="blank" href="https://github.com/anthony-fdez/ip-tracker">
+          <i className="fab fa-github fa-3x"></i>
+        </a>
+      </div>
     </div>
   );
 }

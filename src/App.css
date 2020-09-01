@@ -99,6 +99,17 @@
     width: 100%;
     height: 100%;
   }
+  .github-link {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    transition: 0.3s;
+  }
+  .github-link:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+    cursor: pointer;
+  }
 }
 @media only screen and (max-width: 599px) {
   .App {
@@ -194,4 +205,14 @@
     width: 100%;
     height: 100%;
   }
+  .github-link {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1rem;
+    transition: 0.3s;
+  }
+}
+a {
+  color: black;
+  text-decoration: none;
 }
